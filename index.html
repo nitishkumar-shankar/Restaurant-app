@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant-Billing App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>SNK RESTAURANT</h1>
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Tables</h2>
+      <div class="search-wrapper">
+        <input type="text" id="tableSearch" placeholder="Search table by number">
+        <span class="clear-btn" id="clearTableSearch">×</span>
+      </div>
+      <div class="table-list">
+        <div class="table" data-id="1">Table -1<br>Rs. <span class="total">0</span> | Total items: <span class="count">0</span></div>
+        <div class="table" data-id="2">Table -2<br>Rs. <span class="total">0</span> | Total items: <span class="count">0</span></div>
+        <div class="table" data-id="3">Table -3<br>Rs. <span class="total">0</span> | Total items: <span class="count">0</span></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <h2>Menu</h2>
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search menu... by course, by food">
+        <span class="clear-btn" id="clearMenuSearch">×</span>
+      </div>
+      <div id="menuItems">
+</div>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Order Details</h3>
+        <span class="modal-close" id="closeModal">&times;</span>
+      </div>
+      <table id="orderTable">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Number of Servings</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="modal-footer">
+        <p>Total: ₹<span id="modalTotal">0</span></p>
+        <button id="generateBill">CLOSE SESSION (GENERATE BILL)</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+    { "name": "Vegetable Samosa", "price": 50, "course": "starters" },
+    { "name": "Paneer Tikka", "price": 120, "course": "starters" },
+    { "name": "Onion Pakoda", "price": 70, "course": "starters" },
+    { "name": "Chicken & Cheese Burger", "price": 150, "course": "mains" },
+    { "name": "Veggie Burger", "price": 150, "course": "mains" },
+    { "name": "Biryani", "price": 180, "course": "mains" },
+    { "name": "Sambar Rice", "price": 120, "course": "mains" },
+    { "name": "Curd Rice", "price": 100, "course": "mains" },
+    { "name": "Idli", "price": 80, "course": "mains" },
+    { "name": "Dosa", "price": 90, "course": "mains" },
+    { "name": "Kothu Parotta", "price": 160, "course": "mains" },
+    { "name": "Chettinad Chicken Curry", "price": 220, "course": "mains" },
+    { "name": "Murukku", "price": 40, "course": "snacks" },
+    { "name": "Masala Peanuts", "price": 60, "course": "snacks" },
+    { "name": "Gulab Jamun", "price": 80, "course": "desserts" },
+    { "name": "Rasamalai", "price": 90, "course": "desserts" },
+    { "name": "Rose Milk", "price": 60, "course": "drinks" },
+    { "name": "Lemonade", "price": 50, "course": "drinks" },
+    { "name": "Filter Coffee", "price": 40, "course": "drinks" },
+    { "name": "Buttermilk", "price": 30, "course": "drinks" }
+  ]
+  
