@@ -86,7 +86,7 @@ tables.forEach(table => {
 
     if (!tableOrders[id]) tableOrders[id] = [];
 
-    const existing = tableOrders[id].find(order => order.name === draggedItem.name);
+    const existing = tableOrders[id].find(order => order.id === draggedItem.id);
     if (existing) {
       existing.count++;
     } else {
